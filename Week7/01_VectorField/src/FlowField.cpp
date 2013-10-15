@@ -25,7 +25,7 @@ void FlowField::setup( int width, int height, int res ) {
         VectorList myList;
         flowList.push_back( myList );
         
-        for( int x=0; x<rows; x++){
+        for( int x=0; x<cols; x++){
             ofVec2f dir(1,0);
             flowList[y].push_back( dir );
         }
